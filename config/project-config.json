@@ -1,13 +1,13 @@
 {
   "project": {
-    "name": "ehAye Core CLI",
+    "name": "Dojo Core CLI",
     "description": "Production-Grade Universal Development Framework",
     "version": "1.0.0",
     "author": "Val Neekman",
     "email": "info@neekware.com",
     "license": "MIT",
-    "homepage": "https://github.com/ehaye/core-cli",
-    "repository": "https://github.com/ehaye/core-cli.git"
+    "homepage": "https://github.com/neekware/DojoCoreCLI",
+    "repository": "https://github.com/neekware/DojoCoreCLI.git"
   },
   "features": {
     "telemetry": false,

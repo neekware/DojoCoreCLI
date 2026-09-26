@@ -1,4 +1,4 @@
-"""Configuration management system for ehAye Core CLI.
+"""Configuration management system for Dojo Core CLI.
 
 This module provides a flexible configuration system that supports:
 - Multiple configuration sources (files, env vars, CLI args)
@@ -92,7 +92,7 @@ class CoreConfig(BaseConfig):
     """Core CLI configuration."""
 
     # General settings
-    project_name: str = "ehAye Core CLI"
+    project_name: str = "Dojo Core CLI"
     debug: bool = False
     verbose: int = 0
     quiet: bool = False
@@ -221,7 +221,7 @@ class ConfigManager:
     def __init__(
         self,
         config_class: type[BaseConfig] = CoreConfig,
-        app_name: str = "ehaye",
+        app_name: str = "dojo",
     ):
         """Initialize configuration manager.
 

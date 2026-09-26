@@ -179,10 +179,10 @@ def generate_completion_script(cli_info: dict[str, Any]) -> str:
     all_commands = list(cli_info["subcommands"].keys())
 
     script = f"""#!/bin/bash
-# Auto-generated completion script for ehAye™ Core CLI
-export _ehaye_cli_completions_loaded=1
+# Auto-generated completion script for Dojo Core CLI
+export _dojo_cli_completions_loaded=1
 
-_ehaye_cli_completions() {{
+_dojo_cli_completions() {{
     local cur prev words cword
     if [[ -n "$ZSH_VERSION" ]]; then
         cur="${{COMP_WORDS[COMP_CWORD]}}"
@@ -243,13 +243,13 @@ _ehaye_cli_completions() {{
 if [[ $- == *i* ]]; then
     # For bash
     if [[ -n "$BASH_VERSION" ]]; then
-        complete -F _ehaye_cli_completions cli
+        complete -F _dojo_cli_completions cli
     fi
 
     # For zsh
     if [[ -n "$ZSH_VERSION" ]]; then
         autoload -U +X bashcompinit && bashcompinit
-        complete -F _ehaye_cli_completions cli
+        complete -F _dojo_cli_completions cli
     fi
 fi
 """

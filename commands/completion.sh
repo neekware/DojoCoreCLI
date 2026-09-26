@@ -1,5 +1,5 @@
 #!/bin/bash
-# Git-tracked completion wrapper for ehAye™ Core CLI
+# Git-tracked completion wrapper for Dojo Core CLI
 #
 # This stable wrapper handles shell completion hookup logic and sources
 # the auto-generated completion functions. It provides:

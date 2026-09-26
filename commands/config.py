@@ -1,4 +1,4 @@
-"""Central configuration for ehAye™ Core CLI"""
+"""Central configuration for Dojo Core CLI"""
 
 from commands import __version__
 
@@ -7,7 +7,7 @@ PROJECT_NAME = "MyProject"  # Change this to your project name
 PROJECT_DESCRIPTION = (
     "A Python CLI application"  # Change this to your project description
 )
-CLI_NAME = "ehAye™ Core CLI"
+CLI_NAME = "Dojo Core CLI"
 CLI_COMMAND = "cli"
 
 __all__ = [

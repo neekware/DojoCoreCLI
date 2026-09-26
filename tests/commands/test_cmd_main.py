@@ -1,4 +1,4 @@
-"""Basic tests for ehAye™ Core CLI"""
+"""Basic tests for Dojo Core CLI"""
 
 import subprocess
 import sys
@@ -14,7 +14,7 @@ def test_cli_help() -> None:
     runner = CliRunner()
     result = runner.invoke(cli, ["--help"])
     assert result.exit_code == 0
-    assert "ehAye™ Core CLI" in result.output
+    assert "Dojo Core CLI" in result.output
 
 
 def test_cli_version() -> None:
@@ -34,4 +34,4 @@ def test_python_module_invocation() -> None:
         cwd=Path(__file__).parent.parent.parent,  # Go up to project root
     )
     assert result.returncode == 0
-    assert "ehAye™ Core CLI" in result.stdout
+    assert "Dojo Core CLI" in result.stdout

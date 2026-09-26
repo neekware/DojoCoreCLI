@@ -1,4 +1,4 @@
-# CLAUDE.md - Project-Specific Instructions for ehAye™ Core CLI
+# CLAUDE.md - Project-Specific Instructions for Dojo Core CLI
 
 ## Quick Start
 

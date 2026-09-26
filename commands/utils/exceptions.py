@@ -1,4 +1,4 @@
-"""Exception hierarchy for the ehAye Core CLI.
+"""Exception hierarchy for the Dojo Core CLI.
 
 This module defines a comprehensive exception hierarchy for proper error
 handling throughout the application.
@@ -7,8 +7,8 @@ handling throughout the application.
 from typing import Any, Optional
 
 
-class EhAyeError(Exception):
-    """Base exception for all ehAye CLI errors."""
+class DojoError(Exception):
+    """Base exception for all Dojo CLI errors."""
 
     def __init__(
         self,
@@ -44,7 +44,7 @@ class EhAyeError(Exception):
 
 
 # Configuration Errors
-class ConfigurationError(EhAyeError):
+class ConfigurationError(DojoError):
     """Raised when there's a configuration problem."""
 
     pass
@@ -63,7 +63,7 @@ class InvalidConfigError(ConfigurationError):
 
 
 # Command Execution Errors
-class CommandError(EhAyeError):
+class CommandError(DojoError):
     """Base exception for command-related errors."""
 
     pass
@@ -153,7 +153,7 @@ class InvalidCommandError(CommandError):
 
 
 # File System Errors
-class FileSystemError(EhAyeError):
+class FileSystemError(DojoError):
     """Base exception for file system operations."""
 
     pass
@@ -204,7 +204,7 @@ class DiskSpaceError(FileSystemError):
 
 
 # Project Errors
-class ProjectError(EhAyeError):
+class ProjectError(DojoError):
     """Base exception for project-related errors."""
 
     pass
@@ -242,7 +242,7 @@ class ProjectNotInitializedError(ProjectError):
 
 
 # Dependency Errors
-class DependencyError(EhAyeError):
+class DependencyError(DojoError):
     """Base exception for dependency-related errors."""
 
     pass
@@ -284,7 +284,7 @@ class IncompatibleDependencyError(DependencyError):
 
 
 # Network Errors
-class NetworkError(EhAyeError):
+class NetworkError(DojoError):
     """Base exception for network-related errors."""
 
     pass
@@ -303,7 +303,7 @@ class TimeoutError(NetworkError):
 
 
 # Build Errors
-class BuildError(EhAyeError):
+class BuildError(DojoError):
     """Base exception for build-related errors."""
 
     pass
@@ -353,7 +353,7 @@ class TestFailureError(BuildError):
 
 
 # Plugin Errors
-class PluginError(EhAyeError):
+class PluginError(DojoError):
     """Base exception for plugin-related errors."""
 
     pass
@@ -378,7 +378,7 @@ class PluginExecutionError(PluginError):
 
 
 # Validation Errors
-class ValidationError(EhAyeError):
+class ValidationError(DojoError):
     """Base exception for validation errors."""
 
     pass
@@ -426,7 +426,7 @@ class SchemaValidationError(ValidationError):
 
 
 # Authentication/Authorization Errors
-class SecurityError(EhAyeError):
+class SecurityError(DojoError):
     """Base exception for security-related errors."""
 
     pass
@@ -451,7 +451,7 @@ class TokenExpiredError(SecurityError):
 
 
 # Resource Errors
-class ResourceError(EhAyeError):
+class ResourceError(DojoError):
     """Base exception for resource-related errors."""
 
     pass
@@ -476,7 +476,7 @@ class ResourceBusyError(ResourceError):
 
 
 # User Errors
-class UserError(EhAyeError):
+class UserError(DojoError):
     """Base exception for user-caused errors."""
 
     pass
@@ -497,7 +497,7 @@ class InvalidInputError(UserError):
 
 
 # Internal Errors
-class InternalError(EhAyeError):
+class InternalError(DojoError):
     """Base exception for internal errors."""
 
     def __init__(self, message: str, **kwargs: Any):
@@ -505,7 +505,7 @@ class InternalError(EhAyeError):
         super().__init__(message, **kwargs)
         self.suggestions = [
             "This is likely a bug in the CLI",
-            "Please report this issue at: https://github.com/ehaye/core-cli/issues",
+            "Please report this issue at: https://github.com/neekware/DojoCoreCLI/issues",
             "Include the full error message and stack trace",
         ]
 
@@ -524,7 +524,7 @@ class NotImplementedError(InternalError):
         self.suggestions = [
             "This feature is planned for a future release",
             "Check the roadmap for implementation timeline",
-            "Consider contributing: https://github.com/ehaye/core-cli",
+            "Consider contributing: https://github.com/neekware/DojoCoreCLI",
         ]
 
 

@@ -1,4 +1,4 @@
-"""ehAye™ Core CLI - A modular command-line interface framework"""
+"""Dojo Core CLI - A modular command-line interface framework"""
 
 # Simple version for the CLI
 __version__ = "0.1.0"

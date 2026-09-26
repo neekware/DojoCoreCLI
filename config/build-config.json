@@ -1,5 +1,5 @@
 {
-  "name": "ehAye Core CLI",
+  "name": "Dojo Core CLI",
   "version": "1.0.0",
   "build": {
     "optimization_level": "O2",
@@ -39,6 +39,6 @@
   "docker": {
     "enabled": true,
     "base_image": "python:3.11-slim",
-    "registry": "ghcr.io/ehaye/core-cli"
+    "registry": "ghcr.io/neekware/dojo-core-cli"
   }
 }
