@@ -476,13 +476,9 @@ If you find Dojo Core CLI helpful, we'd appreciate a mention:
 | :---: | :---------: | :--------: | :-----: |
 | ✅ Passing | ✅ mypy | ✅ Black | ✅ Ruff |
 
-<div align="center">
-
 [![GitHub issues](https://img.shields.io/github/issues/neekware/DojoCoreCLI)](https://github.com/neekware/DojoCoreCLI/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/neekware/DojoCoreCLI)](https://github.com/neekware/DojoCoreCLI/pulls)
 [![GitHub stars](https://img.shields.io/github/stars/neekware/DojoCoreCLI?style=social)](https://github.com/neekware/DojoCoreCLI)
-
-</div>
 
 ## ⚡ Recent Updates
 
@@ -507,6 +503,6 @@ If you find Dojo Core CLI helpful, we'd appreciate a mention:
 
 Developed with ❤️ by [Val Neekman](https://github.com/un33k) @ [Neekware Inc.](https://neekware.com)
 
-**Maintained by [Dojo ⛩️](https://heydojo.ai)**
+**Maintained by [Dojo](https://heydojo.ai) ⛩️**
 
 </div>
