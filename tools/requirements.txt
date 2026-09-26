@@ -1,4 +1,4 @@
-# Development dependencies for ehAye™ Core CLI
+# Development dependencies for Dojo Core CLI
 # Pinned versions for consistency between dev and CI
 click==8.2.1
 pytest==8.4.1

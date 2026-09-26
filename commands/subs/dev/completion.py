@@ -83,8 +83,8 @@ def sync() -> None:
 
         # Add completion loaded marker
         completion_script = completion_script.replace(
-            "# Auto-generated completion script for ehAye™ Core CLI",
-            "# Auto-generated completion script for ehAye™ Core CLI\nexport _ehaye_cli_completions_loaded=1",
+            "# Auto-generated completion script for Dojo Core CLI",
+            "# Auto-generated completion script for Dojo Core CLI\nexport _dojo_cli_completions_loaded=1",
         )
 
         # Write to file

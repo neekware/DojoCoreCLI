@@ -90,7 +90,7 @@ def main() -> None:
     dry_run = "--dry-run" in sys.argv or "--dry" in sys.argv
 
     print(f"{Colors.BOLD}{'='*60}{Colors.ENDC}")
-    print(f"{Colors.BOLD}Testing ehAye™ Core CLI Commands{Colors.ENDC}")
+    print(f"{Colors.BOLD}Testing Dojo Core CLI Commands{Colors.ENDC}")
     print(f"{Colors.BOLD}{'='*60}{Colors.ENDC}")
     print(f"Mode: {'DRY RUN' if dry_run else 'ACTUAL EXECUTION'}")
 

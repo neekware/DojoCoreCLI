@@ -1,5 +1,5 @@
 #!/bin/bash
-# ehAye™ Core CLI Bootstrap Script
+# Dojo Core CLI Bootstrap Script
 # Sets up Python virtual environment and installs the cli
 
 set -e
@@ -175,8 +175,8 @@ try:
     
     # Add completion loaded marker
     completion_script = completion_script.replace(
-        '# Auto-generated completion script for ehAye™ Core CLI',
-        '# Auto-generated completion script for ehAye™ Core CLI\\nexport _ehaye_cli_completions_loaded=1'
+        '# Auto-generated completion script for Dojo Core CLI',
+        '# Auto-generated completion script for Dojo Core CLI\\nexport _dojo_cli_completions_loaded=1'
     )
     
     completion_path.write_text(completion_script)
@@ -207,8 +207,8 @@ except Exception as e:
 
 # Main execution
 main() {
-    echo -e "${BLUE}🚀 ehAye™ Core CLI Bootstrap${NC}"
-    echo "Setting up Python environment for ehAye™ Core CLI..."
+    echo -e "${BLUE}🚀 Dojo Core CLI Bootstrap${NC}"
+    echo "Setting up Python environment for Dojo Core CLI..."
     echo
 
     # Check if already in a virtual environment

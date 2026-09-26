@@ -1,4 +1,4 @@
-"""Production-grade logging system for ehAye Core CLI.
+"""Production-grade logging system for Dojo Core CLI.
 
 This module provides structured logging with multiple handlers, formatters,
 and output options suitable for both development and production use.
@@ -442,7 +442,7 @@ class LogManager:
 
         # Ensure audit logs always go to file
         if not self.log_dir:
-            self.log_dir = Path.home() / ".ehaye" / "logs"
+            self.log_dir = Path.home() / ".dojo" / "logs"
             self.log_dir.mkdir(parents=True, exist_ok=True)
 
         # Add special audit file handler

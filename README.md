@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🚀 ehAye™ Core CLI
+# 🚀 Dojo Core CLI ⛩️
 
-<img src="assets/ehAye.png" alt="ehAye Logo" width="300" />
+<img src="assets/dojo.png" alt="Dojo Logo" width="300" />
 
-**ehAye** *(pronounced "A.I.")* — A name that nods to Canadian "eh?" and Scottish "aye" (yes)
+**Dojo** — A focused place to practice your craft and ship your work.
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -16,7 +16,7 @@
 
 **We handle your build environment, so you can focus on your core responsibility.**
 
-Stop wrestling with boilerplate. Start shipping features. ehAye™ Core CLI is the production-ready foundation that lets AI developers, researchers, and students concentrate on what matters: **their actual project**.
+Stop wrestling with boilerplate. Start shipping features. Dojo Core CLI is the production-ready foundation that lets AI developers, researchers, and students concentrate on what matters: **their actual project**.
 
 [Quick Start](#-quick-start) • [Features](#-features) • [Architecture](#-architecture) • [Commands](#-command-showcase) • [Documentation](#-documentation)
 
@@ -24,11 +24,11 @@ Stop wrestling with boilerplate. Start shipping features. ehAye™ Core CLI is t
 
 ---
 
-## 🎯 Why ehAye™ Core CLI?
+## 🎯 Why Dojo Core CLI?
 
 ### 🎓 Perfect for ALL Developers
 
-**Tired of juggling build tools?** Whether you're developing in C/C++, Rust, TypeScript, Python, or any language - let ehAye™ Core CLI be your universal command center.
+**Tired of juggling build tools?** Whether you're developing in C/C++, Rust, TypeScript, Python, or any language - let Dojo Core CLI be your universal command center.
 
 **No more:**
 - ❌ `npm run dev`, `npm run build`, `npm run test` confusion
@@ -49,7 +49,7 @@ cli release       # Ship it, no matter what "it" is
 
 Whether you're building ML pipelines, research tools, or data processing utilities, stop wasting time on CLI infrastructure.
 
-ehAye™ Core CLI is a **batteries-included CLI template** that provides:
+Dojo Core CLI is a **batteries-included CLI template** that provides:
 
 - ✅ **Universal Build System** - One CLI to rule them all (C++, Rust, Python, JS, anything!)
 - ✅ **Zero Configuration** - Works instantly, no setup headaches
@@ -64,7 +64,7 @@ Get up and running in less than 60 seconds:
 
 ```bash
 # 1. Clone the template
-git clone https://github.com/neekware/ehAyeCoreCLI.git my-awesome-cli
+git clone https://github.com/neekware/DojoCoreCLI.git my-awesome-cli
 cd my-awesome-cli
 
 # 2. Customize your project (edit commands/config.py)
@@ -152,7 +152,7 @@ graph LR
         Y[Write Your Logic]
     end
 
-    subgraph "ehAye™ CLI"
+    subgraph "Dojo CLI"
         E[Universal Commands]
     end
 
@@ -343,7 +343,7 @@ your-project/
 ├── .pre-commit-config.yaml # Precommit hook (ensures sanity)
 ├── pyproject.toml          # Project configuration
 ├── setup.sh                # One-command setup
-├── LICENSE                 # AGPL-3.0
+├── LICENSE                 # MIT
 └── README.md               # You are here!
 ```
 
@@ -447,9 +447,9 @@ Please check our [Contributing Guide](CONTRIBUTING.md) (coming soon) for details
 
 ## 📄 License
 
-This project is licensed under the AGPL-3.0 License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-The AGPL-3.0 ensures that any modifications to this CLI framework remain open source, benefiting the entire community.
+The MIT License keeps this CLI framework permissively open, free to use, modify, and build upon.
 
 ## 🙏 Acknowledgments
 
@@ -463,9 +463,9 @@ The AGPL-3.0 ensures that any modifications to this CLI framework remain open so
 
 ### Special Thanks
 
-If you find ehAye™ Core CLI helpful, we'd appreciate a mention:
+If you find Dojo Core CLI helpful, we'd appreciate a mention:
 
-> This project was bootstrapped with [ehAye™ Core CLI](https://github.com/neekware/ehAyeCoreCLI)
+> This project was bootstrapped with [Dojo Core CLI](https://github.com/neekware/DojoCoreCLI)
 
 ## 🚦 Status
 
@@ -481,9 +481,9 @@ If you find ehAye™ Core CLI helpful, we'd appreciate a mention:
 - **Formatting:** Black compliant ✅
 - **Linting:** Ruff clean ✅
 
-[![GitHub issues](https://img.shields.io/github/issues/neekware/ehAyeCoreCLI)](https://github.com/neekware/ehAyeCoreCLI/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/neekware/ehAyeCoreCLI)](https://github.com/neekware/ehAyeCoreCLI/pulls)
-[![GitHub stars](https://img.shields.io/github/stars/neekware/ehAyeCoreCLI?style=social)](https://github.com/neekware/ehAyeCoreCLI)
+[![GitHub issues](https://img.shields.io/github/issues/neekware/DojoCoreCLI)](https://github.com/neekware/DojoCoreCLI/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/neekware/DojoCoreCLI)](https://github.com/neekware/DojoCoreCLI/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/neekware/DojoCoreCLI?style=social)](https://github.com/neekware/DojoCoreCLI)
 
 </div>
 
@@ -502,12 +502,14 @@ If you find ehAye™ Core CLI helpful, we'd appreciate a mention:
 
 **Ready to build something amazing?**
 
-[Get Started Now](#-quick-start) • [Star on GitHub](https://github.com/neekware/ehAyeCoreCLI) • [Report an Issue](https://github.com/neekware/ehAyeCoreCLI/issues)
+[Get Started Now](#-quick-start) • [Star on GitHub](https://github.com/neekware/DojoCoreCLI) • [Report an Issue](https://github.com/neekware/DojoCoreCLI/issues)
 
 <br>
 
 **Built with Python 🐍**
 
 Developed with ❤️ by [Val Neekman](https://github.com/un33k) @ [Neekware Inc.](https://neekware.com)
+
+**Maintained by Dojo ⛩️**
 
 </div>

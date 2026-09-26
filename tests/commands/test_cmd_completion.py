@@ -27,7 +27,7 @@ def test_completion_generation() -> None:
     assert script is not None
     assert len(script) > 0
     assert "#!/bin/bash" in script
-    assert "_ehaye_cli_completions" in script
+    assert "_dojo_cli_completions" in script
 
 
 def test_command_structure() -> None:

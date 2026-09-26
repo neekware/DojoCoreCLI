@@ -9,7 +9,7 @@ build-dir = ".venv/build"
 [project]
 name = "core-cli"
 dynamic = ["version"]
-description = "ehAye™ Core CLI - A modular command-line interface framework"
+description = "Dojo Core CLI - A modular command-line interface framework"
 license = "MIT"
 authors = [
     {name = "Val Neekman", email = "info@neekware.com"}

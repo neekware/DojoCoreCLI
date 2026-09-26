@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""ehAye™ Core CLI - Main entry point"""
+"""Dojo Core CLI - Main entry point"""
 
 import sys
 
@@ -14,12 +14,12 @@ from commands.subs.proj import proj
 from commands.subs.release import release
 
 
-@click.group()
+@click.group(epilog="Maintained by Dojo ⛩️")
 @click.version_option(version=__version__, prog_name="cli")
 @click.option("--debug", is_flag=True, help="Enable debug output")
 @click.pass_context
 def cli(ctx: click.Context, debug: bool) -> None:
-    """ehAye™ Core CLI - A modular command-line interface
+    """Dojo Core CLI - A modular command-line interface
 
     Examples:
       cli proj info               # Show project information
@@ -39,6 +39,7 @@ def cli(ctx: click.Context, debug: bool) -> None:
 def version() -> None:
     """Show version information"""
     click.echo(f"{CLI_NAME} version: {__version__}")
+    click.echo("Maintained by Dojo ⛩️")
 
 
 # Add command groups - sorted alphabetically for consistency
