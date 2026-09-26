@@ -11,6 +11,7 @@
 [![Linting: Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![Type Checked: mypy](https://img.shields.io/badge/type%20checked-mypy-blue)](https://github.com/python/mypy)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Maintained by Dojo](https://img.shields.io/badge/maintained%20by-Dojo%20%E2%9B%A9%EF%B8%8F-6f42c1.svg)](https://heydojo.ai)
 
 ### **🎓 The Best CLI Framework for AI Developers, Researchers & Students**
 
