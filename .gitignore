@@ -56,8 +56,3 @@ htmlcov/
 # Auto-generated completion scripts (keep .gitkeep)
 commands/autogen/*
 !commands/autogen/.gitkeep
-
-# Keep .claude directory structure but ignore some files
-.claude/*
-!.claude/.keep
-!.claude/CLAUDE.md

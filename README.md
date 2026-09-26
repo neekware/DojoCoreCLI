@@ -430,7 +430,7 @@ cli dev precommit --ci   # Check all files
 
 ## 📚 Documentation
 
-- [CLAUDE.md](CLAUDE.md) - Development guidelines and conventions
+- [DOJO.md](DOJO.md) - Development guidelines and conventions
 - [Commands Reference](#-command-showcase) - Detailed command documentation
 - [API Documentation](docs/api.md) - Python API reference (if applicable)
 

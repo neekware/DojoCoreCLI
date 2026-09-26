@@ -395,7 +395,7 @@ jobs:
     - name: 📚 Check documentation files
       run: |
         # Check important files exist
-        for file in README.md LICENSE CLAUDE.md .gitignore; do
+        for file in README.md LICENSE DOJO.md .gitignore; do
           if [ -f "$file" ]; then
             echo "✓ $file exists"
           else

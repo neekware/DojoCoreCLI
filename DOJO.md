@@ -1,4 +1,4 @@
-# CLAUDE.md - Project-Specific Instructions for Dojo Core CLI
+# DOJO.md - Project-Specific Instructions for Dojo Core CLI
 
 ## Quick Start
 
