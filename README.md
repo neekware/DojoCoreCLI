@@ -510,6 +510,6 @@ If you find Dojo Core CLI helpful, we'd appreciate a mention:
 
 Developed with ❤️ by [Val Neekman](https://github.com/un33k) @ [Neekware Inc.](https://neekware.com)
 
-**Maintained by Dojo ⛩️**
+**Maintained by [Dojo ⛩️](https://heydojo.ai)**
 
 </div>

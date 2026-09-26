@@ -14,7 +14,7 @@ from commands.subs.proj import proj
 from commands.subs.release import release
 
 
-@click.group(epilog="Maintained by Dojo ⛩️")
+@click.group(epilog="Maintained by Dojo ⛩️  https://heydojo.ai")
 @click.version_option(version=__version__, prog_name="cli")
 @click.option("--debug", is_flag=True, help="Enable debug output")
 @click.pass_context
@@ -39,7 +39,7 @@ def cli(ctx: click.Context, debug: bool) -> None:
 def version() -> None:
     """Show version information"""
     click.echo(f"{CLI_NAME} version: {__version__}")
-    click.echo("Maintained by Dojo ⛩️")
+    click.echo("Maintained by Dojo ⛩️  https://heydojo.ai")
 
 
 # Add command groups - sorted alphabetically for consistency
