@@ -469,17 +469,13 @@ If you find Dojo Core CLI helpful, we'd appreciate a mention:
 
 ## 🚦 Status
 
+**Production Ready** — fully tested, typed, and linted.
+
+| Tests | Type Safety | Formatting | Linting |
+| :---: | :---------: | :--------: | :-----: |
+| ✅ Passing | ✅ mypy | ✅ Black | ✅ Ruff |
+
 <div align="center">
-
-**Project Status:** 🟢 Production Ready
-
-### ✅ Latest Test Results (Aug 2025)
-
-- **All Tests:** 14/14 PASSED ✅
-- **Code Quality:** All checks passed ✅ 
-- **Type Safety:** Fully typed with mypy ✅
-- **Formatting:** Black compliant ✅
-- **Linting:** Ruff clean ✅
 
 [![GitHub issues](https://img.shields.io/github/issues/neekware/DojoCoreCLI)](https://github.com/neekware/DojoCoreCLI/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/neekware/DojoCoreCLI)](https://github.com/neekware/DojoCoreCLI/pulls)
