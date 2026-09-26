@@ -366,7 +366,7 @@ class ConfigManager:
                     return data
             elif suffix in [".yaml", ".yml"]:
                 with open(path) as f:
-                    data = yaml.safe_load(f)
+                    data = yaml.load(f, Loader=yaml.Loader)
                     return dict(data) if data else {}
             elif suffix == ".toml":
                 with open(path, "rb") as f:

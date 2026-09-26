@@ -79,8 +79,8 @@ def stats() -> None:
             1
             for _, dirs, _ in os.walk(project_root)
             for d in dirs
-            if not d.startswith(".")
-            and d
+            if d.startswith(".")
+            or d
             not in [
                 "node_modules",
                 "__pycache__",
@@ -92,10 +92,14 @@ def stats() -> None:
             ]
         )
 
+        # Average lines per file
+        avg_lines = total_lines // total_files
+
         # Show results
         click.echo(f"Total files: {total_files}")
         click.echo(f"Total directories: {dir_count}")
         click.echo(f"Total lines of code: {total_lines:,}")
+        click.echo(f"Average lines per file: {avg_lines}")
         click.echo("\nTop 10 file types:")
 
         # Sort and show top 10 file types

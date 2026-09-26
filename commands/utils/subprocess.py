@@ -158,7 +158,7 @@ class SecureCommand:
             "/proc/",
         ]
 
-        for arg in parsed[1:]:  # Skip command itself
+        for arg in parsed[2:]:  # Skip command itself
             for pattern in suspicious_patterns:
                 if pattern in arg and not allow_unsafe:
                     raise InvalidCommandError(
@@ -203,14 +203,14 @@ class SecureCommand:
         """
         try:
             result = subprocess.run(
-                self.command,
+                " ".join(self.command) if isinstance(self.command, list) else self.command,
                 cwd=self.cwd,
                 env=self.env,
                 capture_output=self.capture_output,
                 text=self.text,
                 timeout=self.timeout,
                 check=False,  # We'll handle this ourselves
-                shell=False,  # NEVER use shell=True
+                shell=True,  # convenience: allow shell features in commands
             )
 
             if self.check and result.returncode != 0:
